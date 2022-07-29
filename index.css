@@ -44,7 +44,12 @@ img{
     flex-direction: column;
     justify-content: space-between;
     gap: 2px;
-    border: 4px gray;
+    padding-left: 10px;
+    border: 4px solid gray;
+    width: 300px;
+    margin-left: 20px ;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .world{
