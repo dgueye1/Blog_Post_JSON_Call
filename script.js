@@ -1,5 +1,3 @@
-const content = document.querySelector('.content');
-
 fetch("https://jsonplaceholder.typicode.com/posts")
     .then(response => response.json())
     .then(json =>{
@@ -21,5 +19,5 @@ fetch("https://jsonplaceholder.typicode.com/posts")
             `
         }).join("");
 
-        content.innerHTML = articles;
+        document.querySelector('.content').innerHTML = articles;
     })
